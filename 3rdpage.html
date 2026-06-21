@@ -44,7 +44,7 @@ Free shipping on orders over ₹300 · Made in Jaipur
 <div class="grid md:grid-cols-2">
 
 <div class="p-6 md:p-12 border-b md:border-b-0 md:border-r border-neutral-300">
-<h2 class="serif text-6xl md:text-10xl font-light mb-10">
+<h2 class="serif text-6xl md:text-10xl font-light italic mb-10">
 Say hello₁
 </h2>
 
@@ -63,13 +63,13 @@ Jaipur 302001, India
 
 <div>
 <p>Email</p>
-<p class="mt-2 normal-case lowercase text-neutral-600">
+<p class="mt-2 normal-case lowercase text-neutral-600 underline">
 hello@meherva.in
 </p>
 </div>
 
 <div>
-<p>Hours</p>
+<h3 class="text-base normal-case mb-5">HOURS</h3>
 <p class="mt-2 normal-case text-neutral-600">
 Monday – Friday<br>
 10:00 AM – 6:00 PM IST<br>
@@ -81,28 +81,39 @@ By appointment only
 </div>
 
 <div class="p-6 md:p-12">
-<h3 class="text-base mb-8">Send a message</h3>
+<h3 class="text-base mb-8 font-bold">Send a message</h3>
 
-<form class="space-y-8">
-<div>
-<label class="block text-[11px] uppercase mb-2">Name</label>
-<input type="text" class="w-full bg-transparent border-b border-neutral-300 outline-none py-2">
-</div>
+<form class="space-y-6 max-w-md">
+  <div>
+    <label class="block text-sm mb-2 text-neutral-700">Name</label>
+    <input 
+      type="text"
+      class="w-full border border-neutral-300 rounded px-3 py-2 outline-none focus:border-black"
+    />
+  </div>
+  <div>
+    <label class="block text-sm mb-2 text-neutral-700">Email</label>
+    <input 
+      type="email"
+      class="w-full border border-neutral-300 rounded px-3 py-2 outline-none focus:border-black"
+    />
+  </div>
+  <div>
+    <label class="block text-sm mb-2 text-neutral-700">Subject</label>
+    <input 
+      type="text"
+      class="w-full border border-neutral-300 rounded px-3 py-2 outline-none focus:border-black"
+    />
+  </div>
+  <div>
+    <label class="block text-sm mb-2 text-neutral-700">Message</label>
+    <textarea 
+      rows="4"
+      class="w-full border border-neutral-300 rounded px-3 py-2 outline-none resize-none focus:border-black"
+    ></textarea>
+  </div>
 
-<div>
-<label class="block text-[11px] uppercase mb-2">Email</label>
-<input type="email" class="w-full bg-transparent border-b border-neutral-300 outline-none py-2">
-</div>
-
-<div>
-<label class="block text-[11px] uppercase mb-2">Subject</label>
-<input type="text" class="w-full bg-transparent border-b border-neutral-300 outline-none py-2">
-</div>
-
-<div>
-<label class="block text-[11px] uppercase mb-2">Message</label>
-<textarea rows="4" class="w-full bg-transparent border-b border-neutral-300 outline-none py-2 resize-none"></textarea>
-</div>
+</form>
 
 <button class="bg-black text-white px-8 py-3 text-xs uppercase tracking-widest">
 Send the letter →
@@ -112,35 +123,37 @@ Send the letter →
 
 </div>
 </section>
-<section class="border-b border-neutral-300 px-6 md:px-12 py-16">
-    <div class="w-full">
+<section class="border-b border-neutral-300 py-16 p-12 md:px-12  ">
 
-        <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-            <span>How long does shipping take?</span>
-            <span>+</span>
-        </div>
+  <div class="w-full max-w-4xl px-6 md:px-0">
 
-        <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-            <span>What is your return policy?</span>
-            <span>+</span>
-        </div>
-
-        <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-            <span>Are your garments true to size?</span>
-            <span>+</span>
-        </div>
-
-        <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-            <span>How do I care for your hand-dyed fabrics?</span>
-            <span>+</span>
-        </div>
-
-        <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-            <span>Do you accept custom orders?</span>
-            <span>+</span>
-        </div>
-
+    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
+      <span>How long does shipping take?</span>
+      <span>+</span>
     </div>
+
+    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
+      <span>What is your return policy?</span>
+      <span>+</span>
+    </div>
+
+    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
+      <span>Are your garments true to size?</span>
+      <span>+</span>
+    </div>
+
+    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
+      <span>How do I care for your hand-dyed fabrics?</span>
+      <span>+</span>
+    </div>
+
+    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
+      <span>Do you accept custom orders?</span>
+      <span>+</span>
+    </div>
+
+  </div>
+
 </section>
 <footer class="px-6 md:px-12 py-16 border-b border-neutral-300">
 
@@ -152,8 +165,7 @@ Send the letter →
 <li>New Arrivals</li>
 <li>Kurta Sets</li>
 <li>Lehengas</li>
-<li>Sarees</li>
-<li>Accessories</li>
+<li>Saris</li>
 <li>All Pieces</li>
 </ul>
 </div>
@@ -161,10 +173,10 @@ Send the letter →
 <div>
 <h4 class="uppercase mb-4">Studio</h4>
 <ul class="space-y-2 text-neutral-600">
-<li>Journal</li>
+<li>About</li>
 <li>Atelier</li>
-<li>Stories</li>
-<li>Press</li>
+<li>Artisans</li>
+<li>Process</li>
 </ul>
 </div>
 
@@ -182,7 +194,7 @@ Send the letter →
 <div>
 <h4 class="uppercase mb-4">Connect</h4>
 <p class="text-neutral-600 mb-4">
-Subscribe now for pre-order.
+Seasonal notes from the atelier.
 </p>
 
 <input type="email" placeholder="Email Address"
@@ -212,8 +224,6 @@ MEHERVA
 <a href="#">WhatsApp</a>
 </div>
 </div>
-
 </div>
-
 </body>
 </html>
