@@ -1,230 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Page 3</title>
-<script src="https://cdn.tailwindcss.com"></script>
- <link href="src/output.css" rel="stylesheet">
-<style>
-body{
-font-family:'Inter',sans-serif;
-background:#f5f2ec;
-}
-.serif{
-font-family:'Cormorant Garamond',serif;
-}
-</style>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./output.css" rel="stylesheet">
+    <title>page 3</title>
+
 </head>
-<body class="bg-[#f5f2ec] text-black">
 
-<div class="w-[1546px] h-[2458.91px] border border-neutral-300">
-</div>
+<body class=" max-w-[1546px] mx-auto">
+    <div class=" bg-[#F5F1EA] text-center border-b border-gray-300 h-[32px] w-fill">
+        <p1>Free shipping on orders over ₹3,000 · Made in Jaipu</p1>
+    </div>
+   <header class="bg-[#F5F1EA] border-b border-gray-300 px-4 md:px-16 py-4">
 
-<div class="text-center text-[10px] py-2 border-b border-neutral-300">
-Free shipping on orders over ₹300 · Made in Jaipur 
-</div>
+    <nav class="grid grid-cols-3 items-center">
 
-<nav class="w-[1546px] h-[64px] mx-auto flex items-center justify-between px-10 border-b border-neutral-300 text-xs uppercase tracking-wider"></nav>
-<div class="flex gap-4 md:gap-8">
-<a href="#">Shop</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
-<a href="#">Search</a>
-</div>
+        <ul class="flex gap-4 md:gap-8 text-[13px] font-semibold">
+            <li>Shop</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Search</li>
+        </ul>
 
-<h1 class="serif text-lg md:text-xl">Meherva</h1>
+        <h1 class="text-center font-serif italic text-[24px]  tracking-tight">
+            MEHERVA
+        </h1>
 
-<div class="flex gap-4 md:gap-8">
-<a href="#">Wishlist</a>
-<a href="#">Cart(0)</a>
-</div>
-</nav>
+        <ul class="flex justify-end gap-4 md:gap-8 text-[13px] font-semibold">
+            <li>Wishlist</li>
+            <li>Cart</li>
+        </ul>
 
-<section class="border-b border-neutral-300">
-<div class="grid md:grid-cols-2">
+    </nav>
+   
+</header>
 
-<div class="p-6 md:p-12 border-b md:border-b-0 md:border-r border-neutral-300">
-<h2 class="serif text-6xl md:text-10xl font-light italic mb-10">
-Say hello₁
-</h2>
+    <section class=" bg-[#F5F1EA] border-b-2 border-gray-300">
+        <Div class=" [1546px] h-[224px] py-10">
+            <h1 class="text-[50px] md:text-[80px] lg:text-[100px] font-serif italic tracking-tighter pl-4 md:pl-20">Say hello<sub>1</sub></h1>
+        </Div>
+    </section>
 
-<div class="space-y-10 text-xs uppercase tracking-wider">
 
-<div>
-<h3 class="text-base normal-case mb-5">Visit the atelier</h3>
-<p>ADDRESS</p>
-<p class="mt-3 normal-case text-neutral-600 leading-6">
-Meherva<br>
-c/o The Workshop Shop<br>
-14B Galta Marg<br>
-Jaipur 302001, India
-</p>
-</div>
+    <!-- Massage section -->
+    <section class="bg-[#F5F1EA] border-b border-gray-300">
 
-<div>
-<p>Email</p>
-<p class="mt-2 normal-case lowercase text-neutral-600 underline">
-hello@meherva.in
-</p>
-</div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-40 px-4 md:px-12 lg:px-20 py-16 md:py-24">
 
-<div>
-<h3 class="text-base normal-case mb-5">HOURS</h3>
-<p class="mt-2 normal-case text-neutral-600">
-Monday – Friday<br>
-10:00 AM – 6:00 PM IST<br>
-By appointment only
-</p>
-</div>
 
-</div>
-</div>
+        <div>
 
-<div class="p-6 md:p-12">
-<h3 class="text-base mb-8 font-bold">Send a message</h3>
+            <h2 class="text-[22px] md:text-[26px] font-medium mb-8 md:mb-12">
+                Visit the atelier
+            </h2>
 
-<form class="space-y-6 max-w-md">
-  <div>
-    <label class="block text-sm mb-2 text-neutral-700">Name</label>
-    <input 
-      type="text"
-      class="w-full border border-neutral-300 rounded px-3 py-2 outline-none focus:border-black"
-    />
-  </div>
-  <div>
-    <label class="block text-sm mb-2 text-neutral-700">Email</label>
-    <input 
-      type="email"
-      class="w-full border border-neutral-300 rounded px-3 py-2 outline-none focus:border-black"
-    />
-  </div>
-  <div>
-    <label class="block text-sm mb-2 text-neutral-700">Subject</label>
-    <input 
-      type="text"
-      class="w-full border border-neutral-300 rounded px-3 py-2 outline-none focus:border-black"
-    />
-  </div>
-  <div>
-    <label class="block text-sm mb-2 text-neutral-700">Message</label>
-    <textarea 
-      rows="4"
-      class="w-full border border-neutral-300 rounded px-3 py-2 outline-none resize-none focus:border-black"
-    ></textarea>
-  </div>
+            <div class="space-y-12">
 
-</form>
+                <div>
+                    <p class="text-[15px] uppercase tracking-widest mb-4 font-semibold">
+                        Address
+                    </p>
 
-<button class="bg-black text-white px-8 py-3 text-xs uppercase tracking-widest">
-Send the letter →
-</button>
-</form>
-</div>
+                    <ul class=" text-[15px] text-[#616161] flex flex-col gap-2  ">
+                        <li>Meherva</li>
+                        <li>c/o The Workshop </li>
+                       <li> 14B Galta Marg </li>
+                       <li> Jaipur 302002, India</li>
+                    </ul>
+                </div>
 
-</div>
-</section>
-<section class="border-b border-neutral-300 py-16 p-12 md:px-12  ">
+                <div>
+                    <p class="text-[15px] uppercase tracking-widest mb-4 font-semibold">
+                        Email
+                    </p>
 
-  <div class="w-full max-w-4xl px-6 md:px-0">
+                    <a href="#" class="underline">
+                        hello@meherva.in
+                    </a>
+                </div>
 
-    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-      <span>How long does shipping take?</span>
-      <span>+</span>
+                <div>
+                    <p class="text-[15px] uppercase tracking-widest mb-4 font-semibold">
+                        Hours
+                    </p>
+
+                    <ul class=" text-[15px] text-[#616161] flex flex-col gap-2">
+                      <li>  Monday - Friday</li>
+                      <li>10:00 AM - 6:00 PM IST</li>
+                      <li>By appointment only</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <h2 class="text-[26px] font-medium mb-12">
+                Send a message
+            </h2>
+
+            <form class=" space-y-8">
+
+                <div>
+                    <label class="block text-[11px]  mb-2 text-[#616161]">
+                        NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        class="w-full border border-gray-300 bg-transparent p-3">
+                </div>
+
+                <div>
+                    <label class="block text-[11px]  mb-2 text-[#616161]">
+                        EMAIL
+                    </label>
+
+                    <input
+                        type="email"
+                        class="w-full border border-gray-300 bg-transparent p-3">
+                </div>
+
+                <div>
+                    <label class="block text-[11px]  mb-2 text-[#616161]">
+                        SUBJECT
+                    </label>
+
+                    <input
+                        type="text"
+                        class="w-full border border-gray-300 bg-transparent p-3">
+                </div>
+
+                <div>
+                   <label class="block text-[11px]  mb-2 text-[#616161]">
+                        MASSAGE
+                    </label>
+
+                    <textarea rows="6" class="w-full border border-gray-300 bg-transparent p-3"></textarea>
+                </div>
+
+                <button
+                    class="bg-black text-white  h-[48px] w-[170.84px] flex justify-center items-center md:[170px]">
+                    Send the letter→
+                </button>
+
+            </form>
+
+        </div>
+
     </div>
 
-    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-      <span>What is your return policy?</span>
-      <span>+</span>
-    </div>
-
-    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-      <span>Are your garments true to size?</span>
-      <span>+</span>
-    </div>
-
-    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-      <span>How do I care for your hand-dyed fabrics?</span>
-      <span>+</span>
-    </div>
-
-    <div class="border-b border-neutral-300 py-5 flex justify-between items-center text-sm">
-      <span>Do you accept custom orders?</span>
-      <span>+</span>
-    </div>
-
-  </div>
-
-</section>
-<footer class="px-6 md:px-12 py-16 border-b border-neutral-300">
-
-<div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-xs">
-
-<div>
-<h4 class="uppercase mb-4">Shop</h4>
-<ul class="space-y-2 text-neutral-600">
-<li>New Arrivals</li>
-<li>Kurta Sets</li>
-<li>Lehengas</li>
-<li>Saris</li>
-<li>All Pieces</li>
-</ul>
-</div>
-
-<div>
-<h4 class="uppercase mb-4">Studio</h4>
-<ul class="space-y-2 text-neutral-600">
-<li>About</li>
-<li>Atelier</li>
-<li>Artisans</li>
-<li>Process</li>
-</ul>
-</div>
-
-<div>
-<h4 class="uppercase mb-4">Help</h4>
-<ul class="space-y-2 text-neutral-600">
-<li>Contact</li>
-<li>Shipping</li>
-<li>Returns</li>
-<li>Sizing</li>
-<li>FAQ</li>
-</ul>
-</div>
-
-<div>
-<h4 class="uppercase mb-4">Connect</h4>
-<p class="text-neutral-600 mb-4">
-Seasonal notes from the atelier.
-</p>
-
-<input type="email" placeholder="Email Address"
-class="w-full bg-transparent border border-neutral-300 px-3 py-3 text-xs mb-3">
-
-<button class="w-full bg-black text-white py-3 text-xs">
-Subscribe →
-</button>
-</div>
-
-</div>
-
-</footer>
-
-<section class="py-10 md:py-20 text-center border-b border-neutral-300">
-<h1 class="font-black tracking-tight text-[70px] sm:text-[110px] md:text-[180px] lg:text-[240px] leading-none">
-MEHERVA
-</h1>
 </section>
 
-<div class="flex flex-col md:flex-row justify-between items-center px-6 md:px-12 py-4 text-[10px] text-neutral-500 gap-2">
-<p>© Meherva 2026 — Made in Jaipur, India</p>
+<section class="bg-[#F5F1EA] border-b border-gray-300 text">
 
-<div class="flex gap-4">
-<a href="#">Instagram</a>
-<a href="#">Pinterest</a>
-<a href="#">WhatsApp</a>
-</div>
-</div>
-</div>
+    <div class=" max-w-[1546px] h-[586.8px] px-12 py-44 md:px-20 md:py-24">
+
+        <div class="border-t  w-[400px] md:w-[768px]">
+
+           <div class="flex justify-between items-center text-[14px] h-[56px] border-b">
+                <p>How long does shipping take?</p> <p>+</p>
+            </div>
+
+             <div class="flex justify-between items-center text-[14px] h-[56px] border-b">
+                <p>What is your return policy?</p> <p>+</p>
+            </div>
+
+            <div class="flex justify-between items-center text-[14px] h-[56px] border-b">
+                <p>Are your garments true to size?</p>
+                <p>+</p>
+            </div>
+
+            <div class="flex justify-between items-center text-[14px] h-[56px] border-b">
+                <p>How do I care for natural-dyed fabrics?</p>
+                <p>+</p>
+            </div>
+
+             <div class="flex justify-between items-center text-[14px] h-[56px] border-b">
+                <p>Do you accept custom orders?</p>
+                <p>+</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>  
+<section>
+    <footer class="border-b- py-24 border-b bg-[#F5F1EA] border-gray-300">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto gap-10 lg:gap-20 px-4 md:px-8">
+
+            <div>
+                <h3 class="mb-6 font-medium">
+                    Shop
+                </h3>
+                <ul class="mb-3 text-[#616161] flex flex-col gap-2 ">
+                    <li>New arrivals</li>
+                    <li>Kurta Sets</li>
+                    <li>Lehengas</li>
+                    <li>Saris</li>
+                    <li>Separates</li>
+                    <li>All pieces</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="mb-6 font-medium">
+                    Studio
+                </h3>
+                <ul class="mb-3 text-[#616161] flex flex-col gap-2 ">
+                    <li>About</li>
+                    <li>Atelier</li>
+                    <li>Artisans</li>
+                    <li>Process</li>
+
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="mb-6 font-medium">
+                    Help
+                </h3>
+                <ul class="mb-3 text-[#616161] flex flex-col gap-2 ">
+                    <li>Contact</li>
+                    <li>Shipping</li>
+                    <li>Returns</li>
+                    <li>Sizing</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+
+            <div>
+
+                <h3 class="mb-4 font-[11px] font-medium">
+                    Connect
+                </h3>
+                <ul>
+                    <li class="mb-3 text-[#616161] ">Seasonal notes from the atelier.</li>
+
+                </ul>
+
+                <input type="email" placeholder="Email address" class="border w-full p-3">
+
+                <button class="bg-black text-white w-full py-3 mt-3">Subscribe → </button>
+
+            </div>
+
+        </div>
+
+    </footer>
+</section>  
+
+<section class="w-full h-[288px] py-10 md:py-20 border-b border-neutral-300 flex items-center justify-center overflow-hidden">
+
+    <h1 class="text-[100px] sm:text-[140px] md:text-[180px] lg:text-[240px] leading-none font-black tracking-[-8px]">
+        MEHERVA
+    </h1>
+
+</section>
+
+ <div class="h-[57px] w-full bg-[#F5F1EA] flex flex-col md:flex-row justify-between items-center gap-4 px-4 py-4">
+        <p>© Meherva 2026 — Made in Jaipur, India</p>
+        <ul class="flex flex-wrap justify-center md:justify-end items-center gap-3">
+            <li>Instagram</li>
+            <li>Pinterest</li>
+            <li>Whatsapp</li>
+
+        </ul>
+
+    </div>
 </body>
 </html>
